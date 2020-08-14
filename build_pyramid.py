@@ -7,9 +7,10 @@ Created on Wed Aug 12 15:29:50 2020
 """
 
 
-from mcpi.minecraft import Minecraft 
-mc = Mi
-x,y,z = mc.player.gnecraft.create()etPos()
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
+
+x,y,z = mc.player.getPos()
 base = 10
 height = base//2+1
 
